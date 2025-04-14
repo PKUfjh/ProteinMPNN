@@ -1,4 +1,25 @@
 # ProteinMPNN
+
+## Installation
+```bash
+the same with https://github.com/PKUfjh/RFdiffusion
+```
+
+## Run
+```bash
+# ssh连接到计算节点
+conda activate SE3nv
+cd examples
+# 批量单链蛋白逆折叠
+./run_example_1.sh
+# 批量多链蛋白逆折叠
+./run_example_2.sh
+# 单个蛋白逆折叠
+./run_example_3.sh
+# 对结构和序列进行打分
+./run_example_3_score_only.sh
+```
+
 ![ProteinMPNN](https://docs.google.com/drawings/d/e/2PACX-1vTtnMBDOq8TpHIctUfGN8Vl32x5ISNcPKlxjcQJF2q70PlaH2uFlj2Ac4s3khnZqG1YxppdMr0iTyk-/pub?w=889&h=358)
 Read [ProteinMPNN paper](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1).
 
